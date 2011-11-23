@@ -1,4 +1,4 @@
-[[ -n "$1" ]] || { echo "Usage: ./calendar-sheet.sh /path/to/output/directory"; exit 0 ; }
+[[ -n "$1" ]] || { echo "Usage: ./calendar-sheet.sh [output directory]"; exit 0 ; }
 
 OUTPUT=$1
 [[ -d $OUTPUT ]] || { echo "Output directory doesn't exists"; exit 0; }
